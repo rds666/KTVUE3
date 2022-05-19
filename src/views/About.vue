@@ -12,7 +12,7 @@ export default defineComponent({
 
   setup() {
     console.log('About')
-  }
+  },
 })
 </script>
 
