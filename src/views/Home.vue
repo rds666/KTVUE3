@@ -1,19 +1,14 @@
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="v-home">
+    <h1>This is a home page</h1>
+  </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import TheWelcome from '@/components/TheWelcome.vue'
 
 export default defineComponent({
   name: 'Home',
-
-  components: {
-    TheWelcome,
-  },
 
   setup() {
     console.log('Home')
